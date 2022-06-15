@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pratic</title>
+  </head>
+  <body>
+    <header>
+      <a href="#"
+        ><img src="logo-Mercedes-Benz.jpg" alt="logosmarca da Mercedes-Benz"
+      /></a>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Suport</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img id="car" src="f1-2019-e01-mercedes.png" alt="">
+      <section class="formulary">
+        <form method="get" action="indexSecundary.html">
+          <label for="name">Type your Name</label>
+          <input required name="name" type="text" id="name" /> <br>
+
+          <label for="email">Type your E-mail</label>
+          <input required name="email" type="email" id="email" /> <br>
+
+          <label for="password">Type you Password</label>
+          <input required name="password" type="password" id="password"> <br>
+
+          <label for="birthday">Your date of birth</label>
+          <input required name="date" type="date"> <br>
+
+          <label for="range">How much do you like this brand?</label>
+          <input required name="range" type="range"> <br>
+
+          <label for="select">Select who is the best driver, in your opinion</label>
+          <select name="select" id="select">
+            <option value="Lewis Hamilton" selected>Lewis Hamilton</option>
+            <option value="Valtteri Bottas">Valtteri Bottas</option>
+            <option value="Nico Rosberg">Nico Rosberg</option>
+            <option value="George Russell">George Russell</option>
+            <option value="Michael Schumacher">Michael Schumacher</option>
+          </select> <br>
+          <label for="textArea">Talk about your favorite pilot</label>
+          <textarea name="text-area" id="testArea"></textarea> <br>
+          <button>Send this information</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
